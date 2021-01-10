@@ -61,47 +61,47 @@ namespace LibTempo {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to [Hit enter one more time to start bpm computation...].
-        /// </summary>
-        public static string _Hit_enter_one_more_time_to_start_bpm_computation____ {
-            get {
-                return ResourceManager.GetString("[Hit enter one more time to start bpm computation...]", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   Looks up a localized string similar to Bye Bye!.
         /// </summary>
-        public static string Bye_Bye_ {
+        public static string ByeBye {
             get {
-                return ResourceManager.GetString("Bye Bye!", resourceCulture);
+                return ResourceManager.GetString("ByeBye", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Congratulation, you&apos;ve found the secret tempo!.
         /// </summary>
-        public static string Congratulation__you_ve_found_the_secret_tempo_ {
+        public static string Congratulations {
             get {
-                return ResourceManager.GetString("Congratulation, you\'ve found the secret tempo!", resourceCulture);
+                return ResourceManager.GetString("Congratulations", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Faster!.
         /// </summary>
-        public static string Faster_ {
+        public static string Faster {
             get {
-                return ResourceManager.GetString("Faster!", resourceCulture);
+                return ResourceManager.GetString("Faster", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Hit enter key for each beat (q to quit)..
         /// </summary>
-        public static string Hit_enter_key_for_each_beat__q_to_quit__ {
+        public static string HitEnterForEachTempoOrQToQuit {
             get {
-                return ResourceManager.GetString("Hit enter key for each beat (q to quit).", resourceCulture);
+                return ResourceManager.GetString("HitEnterForEachTempoOrQToQuit", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to [Hit enter one more time to start bpm computation...].
+        /// </summary>
+        public static string HitEnterToStartBpmComputation {
+            get {
+                return ResourceManager.GetString("HitEnterToStartBpmComputation", resourceCulture);
             }
         }
         
@@ -324,9 +324,9 @@ namespace LibTempo {
         /// <summary>
         ///   Looks up a localized string similar to Slower!.
         /// </summary>
-        public static string Slower_ {
+        public static string Slower {
             get {
-                return ResourceManager.GetString("Slower!", resourceCulture);
+                return ResourceManager.GetString("Slower", resourceCulture);
             }
         }
     }

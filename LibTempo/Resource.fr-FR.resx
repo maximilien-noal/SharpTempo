@@ -117,17 +117,20 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="Bye Bye!" xml:space="preserve">
+  <data name="ByeBye" xml:space="preserve">
     <value>Au revoir !</value>
   </data>
-  <data name="Congratulation, you've found the secret tempo!" xml:space="preserve">
+  <data name="Congratulations" xml:space="preserve">
     <value>Félicitation, vous avez trouvé le tempo secret !</value>
   </data>
-  <data name="Faster!" xml:space="preserve">
+  <data name="Faster" xml:space="preserve">
     <value>Plus vite !</value>
   </data>
-  <data name="Hit enter key for each beat (q to quit)." xml:space="preserve">
-    <value>Appuyer sur la touche entrée en cadence (q pour quitter).</value>
+  <data name="HitEnterForEachTempoOrQToQuit" xml:space="preserve">
+    <value>Appuyez sur la touche entrée en cadence (q pour quitter).</value>
+  </data>
+  <data name="HitEnterToStartBpmComputation" xml:space="preserve">
+    <value>[Appuyez encore sur la touche entrée pour lancer le calcul du tempo...]</value>
   </data>
   <data name="IsGamingMode" xml:space="preserve">
     <value>active le mode jeu</value>
@@ -136,7 +139,7 @@
     <value>changer le nombre de décimale du tempo à afficher, le maximum est 5 chiffres</value>
   </data>
   <data name="ResetTime" xml:space="preserve">
-    <value>set the time in second to reset the computation</value>
+    <value>changer le temps en seconde avant que le calcul ne soit remis à zéro</value>
   </data>
   <data name="SampleSize" xml:space="preserve">
     <value>changer le nombre d'échantillons nécessaires au calcul du tempo</value>
@@ -201,10 +204,7 @@
   <data name="SentenceVersionCommandText" xml:space="preserve">
     <value>Affiche les informations de version.</value>
   </data>
-  <data name="Slower!" xml:space="preserve">
+  <data name="Slower" xml:space="preserve">
     <value>Moins vite...</value>
-  </data>
-  <data name="[Hit enter one more time to start bpm computation...]" xml:space="preserve">
-    <value>[Appuyer encore sur la touche entrée pour lancer le calcul du tempo...]</value>
   </data>
 </root>

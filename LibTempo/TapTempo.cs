@@ -21,7 +21,7 @@ namespace LibTempo
 
         public void Run()
         {
-            Console.WriteLine("Hit enter key for each beat (q to quit).");
+            Console.WriteLine(Resource.HitEnterForEachTempoOrQToQuit);
             var shouldContinue = true;
             while (shouldContinue)
             {
@@ -34,7 +34,7 @@ namespace LibTempo
                         shouldContinue = false;
                         if (i == -1)
                         {
-                            Console.WriteLine("Bye Bye!");
+                            Console.WriteLine(Resource.ByeBye);
                             break;
                         }
                     }
@@ -56,7 +56,7 @@ namespace LibTempo
                     }
                     else
                     {
-                        Console.WriteLine("[Hit enter one more time to start bpm computation...]");
+                        Console.WriteLine(Resource.HitEnterToStartBpmComputation);
                     }
 
                     while (_hitTimePoints.Count > _sampleSize)

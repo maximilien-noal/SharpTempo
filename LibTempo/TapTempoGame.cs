@@ -19,17 +19,17 @@
         {
             if (AreBRMEquals(bpm, _secretBPM))
             {
-                Console.WriteLine("Congratulation, you've found the secret tempo!");
+                Console.WriteLine(Resource.Congratulations);
                 base.DisplayBPM(bpm);
                 _secretBPM = ComputeNewSecretBPM();
             }
             else if (bpm < _secretBPM)
             {
-                Console.WriteLine("Faster!");
+                Console.WriteLine(Resource.Faster);
             }
             else
             {
-                Console.WriteLine("Slower!");
+                Console.WriteLine(Resource.Slower);
             }
         }
 

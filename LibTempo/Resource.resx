@@ -117,17 +117,20 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="Bye Bye!" xml:space="preserve">
+  <data name="ByeBye" xml:space="preserve">
     <value>Bye Bye!</value>
   </data>
-  <data name="Congratulation, you've found the secret tempo!" xml:space="preserve">
+  <data name="Congratulations" xml:space="preserve">
     <value>Congratulation, you've found the secret tempo!</value>
   </data>
-  <data name="Faster!" xml:space="preserve">
+  <data name="Faster" xml:space="preserve">
     <value>Faster!</value>
   </data>
-  <data name="Hit enter key for each beat (q to quit)." xml:space="preserve">
+  <data name="HitEnterForEachTempoOrQToQuit" xml:space="preserve">
     <value>Hit enter key for each beat (q to quit).</value>
+  </data>
+  <data name="HitEnterToStartBpmComputation" xml:space="preserve">
+    <value>[Hit enter one more time to start bpm computation...]</value>
   </data>
   <data name="IsGamingMode" xml:space="preserve">
     <value>activate the gaming mode</value>
@@ -201,10 +204,7 @@
   <data name="SentenceVersionCommandText" xml:space="preserve">
     <value>Display version information.</value>
   </data>
-  <data name="Slower!" xml:space="preserve">
+  <data name="Slower" xml:space="preserve">
     <value>Slower!</value>
-  </data>
-  <data name="[Hit enter one more time to start bpm computation...]" xml:space="preserve">
-    <value>[Hit enter one more time to start bpm computation...]</value>
   </data>
 </root>
