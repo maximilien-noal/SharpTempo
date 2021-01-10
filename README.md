@@ -1,5 +1,5 @@
-harpTempo
-A complete port of (https://linuxfr.org/tags/taptempo/public)[TapTempo] to C# 9
+SharpTempo
+A complete port of TapTempo[https://linuxfr.org/tags/taptempo/public] to C# 9
 
 Inside CmdLine, type:
 
