@@ -1,7 +1,7 @@
 SharpTempo
 A complete port of [TapTempo](https://linuxfr.org/tags/taptempo/public) to C# 9
 
-Inside CmdLine, type:
+Inside CmdTempo, type:
 
 ```
 dotnet run
